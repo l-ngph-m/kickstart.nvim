@@ -8,10 +8,7 @@ vim.o.number = true
 vim.o.relativenumber = true
 vim.o.mouse = 'a'
 vim.o.showmode = false
--- Use system clipboard
-vim.schedule(function()
-  vim.o.clipboard = 'unnamedplus'
-end)
+vim.o.clipboard = 'unnamedplus'
 
 -- Enable break indent
 vim.o.breakindent = true
@@ -43,3 +40,4 @@ vim.o.showcmd = false
 -- vim.o.statusline = ''
 vim.o.laststatus = 0
 vim.o.fillchars = ''
+vim.o.wrap = false
