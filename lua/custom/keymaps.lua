@@ -32,3 +32,17 @@ vim.keymap.set('n', ']b', '<cmd>bnext<cr>', { desc = 'Next Buffer' })
 vim.keymap.set('n', '<leader>bb', '<cmd>e #<cr>', { desc = 'Switch to Other Buffer' })
 vim.keymap.set('n', '<leader>`', '<cmd>e #<cr>', { desc = 'Switch to Other Buffer' })
 vim.keymap.set('n', '<leader>bd', '<cmd>bdelete<cr>', { desc = 'Delete Buffer' })
+
+-- swap ; and :
+vim.keymap.set('n', ';', ':')
+vim.keymap.set('n', ':', ';')
+
+-- save, quit and shoutout
+vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<leader>o', ':so<CR>')
+
+-- better delete, paste and change
+vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"_d')
+vim.keymap.set({ 'n', 'v', 'x' }, 'p', 'P')
+vim.keymap.set({ 'n', 'v', 'x' }, 'c', '"_c')
