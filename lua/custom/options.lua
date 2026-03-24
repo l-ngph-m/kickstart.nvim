@@ -1,5 +1,6 @@
 vim.g.have_nerd_font = true
 vim.o.conceallevel = 2
+vim.o.termguicolors = true
 
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
@@ -37,7 +38,7 @@ vim.o.confirm = true
 vim.o.swapfile = false
 vim.o.foldopen = 'mark,percent,quickfix,search,tag,undo'
 vim.o.showcmd = false
--- vim.o.statusline = ''
-vim.o.laststatus = 0
 vim.o.fillchars = ''
 vim.o.wrap = false
+
+vim.o.winborder = 'rounded'
