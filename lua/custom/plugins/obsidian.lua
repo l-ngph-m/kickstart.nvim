@@ -93,10 +93,10 @@ return {
     }
   end,
 
-  vim.keymap.set('n', '<leader>obl', '<cmd>ObsidianBacklinks<CR>', { desc = 'Obsidian Back Link' }),
-  vim.keymap.set('v', '<leader>ol', '<cmd>ObsidianLink<CR>', { desc = 'Obsidian Link' }),
-  vim.keymap.set('v', '<leader>oln', '<cmd>ObsidianLinkNew<CR>', { desc = 'Obsidian Link New' }),
-  vim.keymap.set('n', '<leader>or', '<cmd>ObsidianRename<CR>', { desc = 'Obsidian Rename' }),
-  vim.keymap.set('n', '<leader>op', '<cmd>ObsidianPasteImg<CR>', { desc = 'Obsidian Paste Image' }),
-  vim.keymap.set('n', '<leader>os', '<cmd>ObsidianSearch<CR>', { desc = 'Obsidian Search' }),
+  -- vim.keymap.set('n', '<leader>obl', '<cmd>ObsidianBacklinks<CR>', { desc = 'Obsidian Back Link' }),
+  -- vim.keymap.set('v', '<leader>ol', '<cmd>ObsidianLink<CR>', { desc = 'Obsidian Link' }),
+  -- vim.keymap.set('v', '<leader>oln', '<cmd>ObsidianLinkNew<CR>', { desc = 'Obsidian Link New' }),
+  -- vim.keymap.set('n', '<leader>or', '<cmd>ObsidianRename<CR>', { desc = 'Obsidian Rename' }),
+  -- vim.keymap.set('n', '<leader>op', '<cmd>ObsidianPasteImg<CR>', { desc = 'Obsidian Paste Image' }),
+  -- vim.keymap.set('n', '<leader>os', '<cmd>ObsidianSearch<CR>', { desc = 'Obsidian Search' }),
 }

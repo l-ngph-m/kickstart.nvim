@@ -3,15 +3,6 @@ return { -- Collection of various small independent plugins/modules
   config = function()
     require('mini.ai').setup { n_lines = 500 }
     require('mini.surround').setup()
-
-    local tabline = require 'mini.tabline'
-    tabline.setup {
-      format = function(buf_id, label)
-        local suffix = vim.bo[buf_id].modified and '+ ' or ''
-        return MiniTabline.default_format(buf_id, label) .. suffix
-      end,
-    }
-
     require('mini.statusline').setup()
 
     local starter = require 'mini.starter'
