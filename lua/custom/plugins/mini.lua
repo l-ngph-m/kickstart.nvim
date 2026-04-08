@@ -1,5 +1,6 @@
 return { -- Collection of various small independent plugins/modules
-  'echasnovski/mini.nvim',
+  'nvim-mini/mini.nvim',
+  version = '*',
   config = function()
     require('mini.ai').setup { n_lines = 500 }
     require('mini.surround').setup()
@@ -9,7 +10,6 @@ return { -- Collection of various small independent plugins/modules
     starter.setup {
       evaluate_single = true,
       items = {
-        starter.sections.builtin_actions(),
         starter.sections.recent_files(10, false),
         starter.sections.recent_files(10, true),
         -- Use this if you set up 'mini.sessions'
